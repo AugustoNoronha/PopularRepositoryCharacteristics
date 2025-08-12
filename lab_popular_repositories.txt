@@ -1,0 +1,2872 @@
+# Análise de Repositórios Populares do GitHub
+# Dados coletados para responder às Questões de Pesquisa (RQs)
+====================================================================================================
+
+REPOSITÓRIO 001: freeCodeCamp
+Owner: freeCodeCamp
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-12-24T17:49:19Z
+RQ02_Merged_PRs: 25677
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:13:38Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 19604
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 425599
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 002: build-your-own-x
+Owner: codecrafters-io
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-05-09T12:03:18Z
+RQ02_Merged_PRs: 142
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:16:10Z
+RQ05 - Primary Language: Markdown
+RQ06 - Closed Issues: 594
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 409373
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 003: awesome
+Owner: sindresorhus
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-07-11T13:42:37Z
+RQ02_Merged_PRs: 679
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:18:37Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 340
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 390995
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 004: free-programming-books
+Owner: EbookFoundation
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2013-10-11T06:50:37Z
+RQ02_Merged_PRs: 6818
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:07:12Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 1150
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 364902
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 005: public-apis
+Owner: public-apis
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-03-20T23:49:42Z
+RQ02_Merged_PRs: 1872
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:17:32Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 703
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 360864
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 006: developer-roadmap
+Owner: kamranahmedse
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-03-15T13:45:52Z
+RQ02_Merged_PRs: 3668
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:16:59Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 2690
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 333629
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 007: coding-interview-university
+Owner: jwasham
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-06-06T02:34:12Z
+RQ02_Merged_PRs: 415
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:06:05Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 453
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 324160
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 008: system-design-primer
+Owner: donnemartin
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-02-26T16:15:28Z
+RQ02_Merged_PRs: 200
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:15:58Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 91
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 315522
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 009: 996.ICU
+Owner: 996icu
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2019-03-26T07:31:14Z
+RQ02_Merged_PRs: 1067
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:18:22Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 273994
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 010: awesome-python
+Owner: vinta
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-06-27T21:00:06Z
+RQ02_Merged_PRs: 544
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:18:25Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 254634
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 011: awesome-selfhosted
+Owner: awesome-selfhosted
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-06-01T02:33:17Z
+RQ02_Merged_PRs: 2394
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 1
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:15:47Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 806
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 241459
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 012: project-based-learning
+Owner: practical-tutorials
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-04-12T05:07:46Z
+RQ02_Merged_PRs: 182
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:18:56Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 79
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 239020
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 013: react
+Owner: facebook
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2013-05-24T16:15:54Z
+RQ02_Merged_PRs: 12079
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:19:17Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 13179
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 238051
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 014: vue
+Owner: vuejs
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2013-07-29T03:24:51Z
+RQ02_Merged_PRs: 1133
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:40:05Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 9673
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 209251
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 015: Python
+Owner: TheAlgorithms
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-07-16T09:44:01Z
+RQ02_Merged_PRs: 2975
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:06:22Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 1511
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 203965
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 016: linux
+Owner: torvalds
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2011-09-04T22:48:12Z
+RQ02_Merged_PRs: 10
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:15:46Z
+RQ05 - Primary Language: C
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 199512
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 017: javascript-algorithms
+Owner: trekhleb
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-03-24T07:47:04Z
+RQ02_Merged_PRs: 302
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:50:56Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 229
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 192978
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 018: tensorflow
+Owner: tensorflow
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-11-07T01:19:20Z
+RQ02_Merged_PRs: 35640
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:05:40Z
+RQ05 - Primary Language: C++
+RQ06 - Closed Issues: 39823
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 191152
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 019: computer-science
+Owner: ossu
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-05-04T00:18:39Z
+RQ02_Merged_PRs: 298
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:12:35Z
+RQ05 - Primary Language: HTML
+RQ06 - Closed Issues: 637
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 190241
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 020: You-Dont-Know-JS
+Owner: getify
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2013-11-16T02:37:24Z
+RQ02_Merged_PRs: 368
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:46:17Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 863
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 182924
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 021: the-book-of-secret-knowledge
+Owner: trimstray
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-06-23T10:43:14Z
+RQ02_Merged_PRs: 122
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:19:17Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 181945
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 022: CS-Notes
+Owner: CyC2018
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-02-13T14:56:24Z
+RQ02_Merged_PRs: 374
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:29:46Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 448
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 181406
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 023: ohmyzsh
+Owner: ohmyzsh
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2009-08-28T18:15:37Z
+RQ02_Merged_PRs: 3370
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:58:29Z
+RQ05 - Primary Language: Shell
+RQ06 - Closed Issues: 4819
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 180619
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 024: AutoGPT
+Owner: Significant-Gravitas
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2023-03-16T09:21:07Z
+RQ02_Merged_PRs: 3154
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 66
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:24:11Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 3214
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 177708
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 025: vscode
+Owner: microsoft
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-09-03T20:23:38Z
+RQ02_Merged_PRs: 35939
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:24:32Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 192237
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 175665
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 026: bootstrap
+Owner: twbs
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2011-07-29T21:19:00Z
+RQ02_Merged_PRs: 8967
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:50:27Z
+RQ05 - Primary Language: MDX
+RQ06 - Closed Issues: 22342
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 172829
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 027: flutter
+Owner: flutter
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-03-06T22:54:58Z
+RQ02_Merged_PRs: 43644
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:57:17Z
+RQ05 - Primary Language: Dart
+RQ06 - Closed Issues: 96648
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 171814
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 028: Python-100-Days
+Owner: jackfrued
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-03-01T16:05:52Z
+RQ02_Merged_PRs: 13
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:53:32Z
+RQ05 - Primary Language: Jupyter Notebook
+RQ06 - Closed Issues: 118
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 170714
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 029: gitignore
+Owner: github
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2010-11-08T20:17:14Z
+RQ02_Merged_PRs: 1713
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:56:51Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 168600
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 030: the-art-of-command-line
+Owner: jlevy
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-05-20T15:11:03Z
+RQ02_Merged_PRs: 317
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:11:37Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 136
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 157761
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 031: stable-diffusion-webui
+Owner: AUTOMATIC1111
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2022-08-22T14:05:26Z
+RQ02_Merged_PRs: 1873
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:45:25Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 5463
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 155487
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 032: JavaGuide
+Owner: Snailclimb
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-05-07T13:27:00Z
+RQ02_Merged_PRs: 1179
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:59:47Z
+RQ05 - Primary Language: Java
+RQ06 - Closed Issues: 1031
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 151217
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 033: ollama - ERRO DE EXCEÇÃO
+Owner: ollama
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C5430>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 034: awesome-go
+Owner: avelino
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-07-06T13:42:15Z
+RQ02_Merged_PRs: 3454
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:16:15Z
+RQ05 - Primary Language: Go
+RQ06 - Closed Issues: 679
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 149711
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 035: transformers
+Owner: huggingface
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-10-29T13:56:00Z
+RQ02_Merged_PRs: 16509
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 220
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:00:06Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 16669
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 148232
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 036: javascript - ERRO DE EXCEÇÃO
+Owner: airbnb
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C5610>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 037: Microsoft-Activation-Scripts
+Owner: massgravel
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2020-01-12T23:03:34Z
+RQ02_Merged_PRs: 6
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:10:34Z
+RQ05 - Primary Language: Batchfile
+RQ06 - Closed Issues: 715
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 144290
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 038: youtube-dl
+Owner: ytdl-org
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2010-10-31T14:35:07Z
+RQ02_Merged_PRs: 1642
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:58:33Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 23122
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 136829
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 039: next.js
+Owner: vercel
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-10-05T23:32:51Z
+RQ02_Merged_PRs: 23497
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:04:55Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 20995
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 133739
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 040: awesome-chatgpt-prompts
+Owner: f
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2022-12-05T13:54:13Z
+RQ02_Merged_PRs: 171
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:53:48Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 132410
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 041: go
+Owner: golang
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-08-19T04:33:40Z
+RQ02_Merged_PRs: 1
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:50:48Z
+RQ05 - Primary Language: Go
+RQ06 - Closed Issues: 58657
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 129355
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 042: n8n - ERRO DE EXCEÇÃO
+Owner: n8n-io
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C6810>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 043: fucking-algorithm - ERRO DE EXCEÇÃO
+Owner: labuladong
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C7350>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 044: tech-interview-handbook
+Owner: yangshun
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-07-05T05:00:48Z
+RQ02_Merged_PRs: 481
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:01:06Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 74
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 128453
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 045: scrcpy
+Owner: Genymobile
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-11-21T18:00:27Z
+RQ02_Merged_PRs: 113
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:06:32Z
+RQ05 - Primary Language: C
+RQ06 - Closed Issues: 3159
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 126445
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 046: 30-seconds-of-code - ERRO DE EXCEÇÃO
+Owner: Chalarangelo
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C7CB0>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 047: HelloGitHub - ERRO DE EXCEÇÃO
+Owner: 521xueweihan
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C7740>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 048: react-native
+Owner: facebook
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-01-09T18:10:16Z
+RQ02_Merged_PRs: 930
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:59:26Z
+RQ05 - Primary Language: C++
+RQ06 - Closed Issues: 26526
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 123376
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 049: yt-dlp
+Owner: yt-dlp
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2020-10-26T04:22:55Z
+RQ02_Merged_PRs: 2869
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:01:22Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 8094
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 122144
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 050: PowerToys
+Owner: microsoft
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2019-05-01T17:44:02Z
+RQ02_Merged_PRs: 5601
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:13:15Z
+RQ05 - Primary Language: C#
+RQ06 - Closed Issues: 27489
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 122089
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 051: electron
+Owner: electron
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2013-04-12T01:47:36Z
+RQ02_Merged_PRs: 23207
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 1000
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:56:53Z
+RQ05 - Primary Language: C++
+RQ06 - Closed Issues: 20270
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 117853
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 052: kubernetes
+Owner: kubernetes
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-06-06T22:56:04Z
+RQ02_Merged_PRs: 62217
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:55:31Z
+RQ05 - Primary Language: Go
+RQ06 - Closed Issues: 45735
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 116844
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 053: hello-algo
+Owner: krahets
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2022-11-04T11:08:34Z
+RQ02_Merged_PRs: 945
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 9
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:32:23Z
+RQ05 - Primary Language: Java
+RQ06 - Closed Issues: 258
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 115350
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 054: free-programming-books-zh_CN - ERRO DE EXCEÇÃO
+Owner: justjavac
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C7530>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 055: langchain
+Owner: langchain-ai
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2022-10-17T02:58:36Z
+RQ02_Merged_PRs: 14418
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 944
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:21:55Z
+RQ05 - Primary Language: Jupyter Notebook
+RQ06 - Closed Issues: 8424
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 113375
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 056: node
+Owner: nodejs
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-11-26T19:57:11Z
+RQ02_Merged_PRs: 10695
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 454
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:15:13Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 17703
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 112670
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 057: d3 - ERRO DE EXCEÇÃO
+Owner: d3
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C55B0>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 058: dify
+Owner: langgenius
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2023-04-12T07:40:24Z
+RQ02_Merged_PRs: 6909
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:12:07Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 11639
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 110623
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 059: free-for-dev
+Owner: ripienaar
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-03-18T21:06:26Z
+RQ02_Merged_PRs: 2752
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:43:31Z
+RQ05 - Primary Language: HTML
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 109790
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 060: three.js
+Owner: mrdoob
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2010-03-23T18:58:01Z
+RQ02_Merged_PRs: 14351
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 171
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:22:52Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 12711
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 108058
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 061: axios
+Owner: axios
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-08-18T22:30:27Z
+RQ02_Merged_PRs: 1000
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 97
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:50:36Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 4427
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 107386
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 062: open-webui
+Owner: open-webui
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2023-10-06T22:08:27Z
+RQ02_Merged_PRs: 2464
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:22:27Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 5850
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 106365
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 063: rust
+Owner: rust-lang
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2010-06-16T20:39:03Z
+RQ02_Merged_PRs: 65379
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:19:03Z
+RQ05 - Primary Language: Rust
+RQ06 - Closed Issues: 48452
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 105713
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 064: TypeScript
+Owner: microsoft
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-06-17T15:28:39Z
+RQ02_Merged_PRs: 14672
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:20:46Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 36840
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 105588
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 065: excalidraw
+Owner: excalidraw
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2020-01-02T01:04:43Z
+RQ02_Merged_PRs: 3693
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:00:04Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 2399
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 105262
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 066: nodebestpractices - ERRO DE EXCEÇÃO
+Owner: goldbergyoni
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C6510>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 067: deno
+Owner: denoland
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-05-15T01:34:26Z
+RQ02_Merged_PRs: 13294
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:50:49Z
+RQ05 - Primary Language: Rust
+RQ06 - Closed Issues: 10858
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 103846
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 068: create-react-app
+Owner: facebook
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-07-17T14:55:11Z
+RQ02_Merged_PRs: 1949
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:50:46Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 6567
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 103420
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 069: GitHub-Chinese-Top-Charts - ERRO DE EXCEÇÃO
+Owner: GrowingGit
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C6480>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 070: godot
+Owner: godotengine
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-01-04T16:05:36Z
+RQ02_Merged_PRs: 38636
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:36:46Z
+RQ05 - Primary Language: C++
+RQ06 - Closed Issues: 45921
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 99826
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 071: terminal
+Owner: microsoft
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-08-11T18:38:22Z
+RQ02_Merged_PRs: 4176
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 136
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:23:10Z
+RQ05 - Primary Language: C++
+RQ06 - Closed Issues: 11847
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 99172
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 072: langflow
+Owner: langflow-ai
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2023-02-08T22:28:03Z
+RQ02_Merged_PRs: 4577
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:16:08Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 2233
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 98920
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 073: DeepSeek-V3 - ERRO DE EXCEÇÃO
+Owner: deepseek-ai
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684FC170>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 074: angular
+Owner: angular
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-09-18T16:12:01Z
+RQ02_Merged_PRs: 3869
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 465
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:19:50Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 27980
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 98460
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 075: frp
+Owner: fatedier
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-12-21T15:24:59Z
+RQ02_Merged_PRs: 682
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:24:12Z
+RQ05 - Primary Language: Go
+RQ06 - Closed Issues: 3832
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 97286
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 076: papers-we-love
+Owner: papers-we-love
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2013-12-15T14:31:41Z
+RQ02_Merged_PRs: 437
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:09:54Z
+RQ05 - Primary Language: Shell
+RQ06 - Closed Issues: 245
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 96945
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 077: material-ui
+Owner: mui
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-08-18T19:11:54Z
+RQ02_Merged_PRs: 20755
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:00:24Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 18541
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 96353
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 078: iptv
+Owner: iptv-org
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-11-14T22:00:57Z
+RQ02_Merged_PRs: 6663
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:01:53Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 14188
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 96171
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 079: Awesome-Hacking - ERRO DE EXCEÇÃO
+Owner: Hack-with-Github
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C5E20>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 080: ant-design
+Owner: ant-design
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-04-24T15:37:24Z
+RQ02_Merged_PRs: 15739
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 713
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:00:33Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 30363
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 95624
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 081: rustdesk
+Owner: rustdesk
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2020-09-28T15:36:08Z
+RQ02_Merged_PRs: 3618
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 31
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:24:37Z
+RQ05 - Primary Language: Rust
+RQ06 - Closed Issues: 3547
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 95527
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 082: tauri
+Owner: tauri-apps
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2019-07-13T09:09:37Z
+RQ02_Merged_PRs: 5142
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:56:04Z
+RQ05 - Primary Language: Rust
+RQ06 - Closed Issues: 4624
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 95455
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 083: generative-ai-for-beginners - ERRO DE EXCEÇÃO
+Owner: microsoft
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C4740>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 084: thefuck
+Owner: nvbn
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2015-04-08T15:08:04Z
+RQ02_Merged_PRs: 481
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T13:33:44Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 472
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 93414
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 085: clean-code-javascript
+Owner: ryanmcdermott
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-11-25T22:25:41Z
+RQ02_Merged_PRs: 149
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:31:57Z
+RQ05 - Primary Language: JavaScript
+RQ06 - Closed Issues: 163
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 93340
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 086: ui
+Owner: shadcn-ui
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2023-01-04T12:43:27Z
+RQ02_Merged_PRs: 634
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 52
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:22:41Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 2364
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 92792
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 087: java-design-patterns
+Owner: iluwatar
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-08-09T16:45:18Z
+RQ02_Merged_PRs: 1507
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:17:51Z
+RQ05 - Primary Language: Java
+RQ06 - Closed Issues: 830
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 92463
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 088: pytorch - ERRO DE EXCEÇÃO
+Owner: pytorch
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C5F40>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 089: HowToCook
+Owner: Anduin2017
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2020-02-29T10:43:49Z
+RQ02_Merged_PRs: 586
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:37:31Z
+RQ05 - Primary Language: Dockerfile
+RQ06 - Closed Issues: 346
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 92214
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 090: neovim
+Owner: neovim
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2014-01-31T13:39:22Z
+RQ02_Merged_PRs: 16072
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:26:17Z
+RQ05 - Primary Language: Vim Script
+RQ06 - Closed Issues: 11440
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 91899
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 091: puppeteer
+Owner: puppeteer
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-05-09T22:16:13Z
+RQ02_Merged_PRs: 5405
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:49:21Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 6946
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 91709
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 092: Web-Dev-For-Beginners - ERRO DE EXCEÇÃO
+Owner: microsoft
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C7110>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 093: DeepSeek-R1
+Owner: deepseek-ai
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2025-01-20T11:57:28Z
+RQ02_Merged_PRs: 9
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:55:01Z
+RQ05 - Primary Language: Not specified
+RQ06 - Closed Issues: 568
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 90858
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 094: vue-element-admin
+Owner: PanJiaChen
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-04-17T03:35:49Z
+RQ02_Merged_PRs: 311
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T11:25:19Z
+RQ05 - Primary Language: Vue
+RQ06 - Closed Issues: 2357
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 89759
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 095: tailwindcss
+Owner: tailwindlabs
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2017-10-06T14:59:14Z
+RQ02_Merged_PRs: 3063
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:03:00Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 4449
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 89558
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 096: fastapi
+Owner: fastapi
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2018-12-08T08:21:47Z
+RQ02_Merged_PRs: 2732
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 208
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:57:33Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 3417
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 88276
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 097: every-programmer-should-know - ERRO DE EXCEÇÃO
+Owner: mtdvio
+Erro: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022C684C75C0>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+====================================================================================================
+
+REPOSITÓRIO 098: storybook
+Owner: storybookjs
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2016-03-18T04:23:44Z
+RQ02_Merged_PRs: 11467
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T14:45:37Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 11605
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 87489
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 099: supabase
+Owner: supabase
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2019-10-12T05:56:49Z
+RQ02_Merged_PRs: 12843
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 22
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:18:58Z
+RQ05 - Primary Language: TypeScript
+RQ06 - Closed Issues: 4389
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 86980
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
+REPOSITÓRIO 100: whisper
+Owner: openai
+URL: N/A
+Description: No description
+Homepage: N/A
+
+--- MÉTRICAS PARA AS QUESTÕES DE PESQUISA ---
+RQ01 - Created At: 2022-09-16T20:02:54Z
+RQ02_Merged_PRs: 119
+RQ02_Total_PRs: 0
+RQ03_Total_Releases: 0
+RQ04_Last_Push: N/A
+RQ04 - Last Update: 2025-08-12T15:16:28Z
+RQ05 - Primary Language: Python
+RQ06 - Closed Issues: 0
+RQ06 - Open Issues: 0
+RQ06 - Total Issues: 0
+
+--- MÉTRICAS DE POPULARIDADE ---
+Stars: 86484
+Forks: 0
+Watchers: 0
+
+--- INFORMAÇÕES ADICIONAIS ---
+License: No license
+Size: N/A KB
+Default Branch: N/A
+Has Issues: N/A
+Has Wiki: N/A
+Has Projects: N/A
+
+====================================================================================================
+
