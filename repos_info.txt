@@ -1,0 +1,14 @@
+Repository: freeCodeCamp
+Owner: freeCodeCamp
+URL: https://github.com/freeCodeCamp/freeCodeCamp
+Stars: 425550
+Forks: 41155
+Commits: 305
+Watchers: 425550
+Last Commit Date: 2025-08-11T16:03:33Z
+Main Language: TypeScript
+License: BSD 3-Clause "New" or "Revised" License
+Size: 510487 KB
+Main Branch: main
+Topics: careers, certification, community, curriculum, d3, education, freecodecamp, hacktoberfest, javascript, learn-to-code, math, nodejs, nonprofits, programming, react, teachers
+----------------------------------------------------------------------------------------------------
