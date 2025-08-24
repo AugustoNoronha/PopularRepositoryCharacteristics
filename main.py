@@ -1,135 +1,109 @@
 import requests
+import csv
+import time
+import urllib3
 
-token = "token"
+token = "token" 
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+def get_top_starred_repos_paginated(num_repos):
+   
+    all_repos = []
+    per_page = 100
+    num_pages = (num_repos + per_page - 1) // per_page
+
+    for page in range(1, num_pages + 1):
+        url = f"https://api.github.com/search/repositories?q=stars:>0&sort=stars&order=desc&per_page={per_page}&page={page}"
+        headers = {"Authorization": f"token {token}"}
+        
+        try:
+            response = requests.get(url, headers=headers, verify=False)
+            response.raise_for_status()  
+            
+            repos = response.json().get("items", [])
+            all_repos.extend(repos)
+
+            print(f"Página {page} de {num_pages} processada. Repositórios coletados: {len(all_repos)}")
+            time.sleep(1) 
+        
+        except requests.exceptions.RequestException as e:
+            print(f"Erro ao buscar repositórios na página {page}: {e}")
+            break
+    
+    return all_repos
 
 
-def get_top_starred_repos(num_repos):
-    url = f"https://api.github.com/search/repositories?q=stars:>0&sort=stars&order=desc&per_page={num_repos}"
-    headers = {"Authorization": f"token {token}"}  # use seu token aqui
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        return response.json()["items"]
-    else:
-        raise Exception(f"Failed to fetch repositories: {response.status_code}")
-
-# Função para obter os repositórios mais populares com a palavra-chave "microservices"
-def get_popular_repos(keyword, num_repos):
-    url = f"https://api.github.com/search/repositories?q={keyword}&sort=stars&order=desc&per_page={num_repos}"
-    headers = {"Authorization": f"token {token}"}
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        return response.json()["items"]
-    else:
-        raise Exception(f"Failed to fetch repositories: {response.status_code}")
-
-# Função para obter detalhes de um repositório
 def get_repo_details(owner, repo):
     url = f"https://api.github.com/repos/{owner}/{repo}"
     headers = {"Authorization": f"token {token}"}
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
+    try:
+        response = requests.get(url, headers=headers, verify=False)
+        response.raise_for_status()
         return response.json()
-    else:
-        raise Exception(f"Failed to fetch repository details: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao buscar detalhes do repositório {owner}/{repo}: {e}")
+        return None
 
-# Função para obter o número de pull requests com paginação
-def get_pull_requests(owner, repo):
-    url = f"https://api.github.com/repos/{owner}/{repo}/pulls?state=all"
-    headers = {"Authorization": f"token {token}"}
-    page = 1
-    pull_requests = []
-    while True:
-        print("entrou while get_pull page: "+ str(page))
-        response = requests.get(f"{url}&page={page}&per_page=100", headers=headers)
-        if response.status_code == 200:
-            page_pull_requests = response.json()
-            if not page_pull_requests:
-                print("caiu no break get_pull")
-                break
-            pull_requests.extend(page_pull_requests)
-            page += 1
-        else:
-            raise Exception(f"Failed to fetch pull requests: {response.status_code}")
-    return len(pull_requests)
 
-# Função para obter o número de releases com paginação
-def get_releases(owner, repo):
-    url = f"https://api.github.com/repos/{owner}/{repo}/releases"
-    headers = {"Authorization": f"token {token}"}
-    page = 1
-    releases = []
-    while True:
-        print("entrou while get_release")
-        response = requests.get(f"{url}?page={page}&per_page=100", headers=headers)
-        if response.status_code == 200:
-            page_releases = response.json()
-            if not page_releases:
-                print("caiu no break get_release")
-                break
-            releases.extend(page_releases)
-            page += 1
-        else:
-            raise Exception(f"Failed to fetch releases: {response.status_code}")
-    return len(releases)
+def collect_and_save_repo_info_to_csv(repos, filename="repos_info.csv"):
+    if not repos:
+        print("Nenhum repositório para salvar.")
+        return
 
-# Função para obter o número de issues fechadas com paginação
-def get_closed_issues(owner, repo):
-    url = f"https://api.github.com/repos/{owner}/{repo}/issues?state=closed"
-    headers = {"Authorization": f"token {token}"}
-    page = 1
-    closed_issues = []
-    while True:
-        print("entrou while get_closed")
-        response = requests.get(f"{url}&page={page}&per_page=100", headers=headers)
-        if response.status_code == 200:
-            page_closed_issues = response.json()
-            if not page_closed_issues:
-                print("caiu no break get_closed")
-                break
-            closed_issues.extend(page_closed_issues)
-            page += 1
-        else:
-            raise Exception(f"Failed to fetch closed issues: {response.status_code}")
-    return len(closed_issues)
+    headers = [
+        "Repository", "Owner", "URL", "Stars", "Forks", "Watchers",
+        "Last Commit Date", "Main Language", "License", "Size (KB)",
+        "Main Branch", "Topics"
+    ]
 
-# Função para coletar e imprimir informações dos repositórios
-def collect_and_print_repo_info(repos, filename="repos_info.txt"):
-    with open(filename, "w", encoding="utf-8") as f:
-        for repo in repos:
-            owner = repo["owner"]["login"]
-            repo_name = repo["name"]
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+        
+        for i, repo in enumerate(repos):
+            owner = repo.get("owner", {}).get("login")
+            repo_name = repo.get("name")
+            
+            if not owner or not repo_name:
+                continue
+
             repo_details = get_repo_details(owner, repo_name)
             
-            #pull_requests = get_pull_requests(owner, repo_name)
-            #releases = get_releases(owner, repo_name)
-            #closed_issues = get_closed_issues(owner, repo_name)
+            if repo_details:
+                license_name = "Sem licença"
+                license_data = repo_details.get("license")
+                if license_data and isinstance(license_data, dict):
+                    license_name = license_data.get("name", "Sem licença")
+                
+                topics_list = repo_details.get("topics", [])
+                topics_str = ", ".join(topics_list)
 
-            f.write(f"Repository: {repo_name}\n")
-            f.write(f"Owner: {owner}\n")
-            f.write(f"URL: {repo_details['html_url']}\n")
-            f.write(f"Stars: {repo_details['stargazers_count']}\n")
-            f.write(f"Forks: {repo_details['forks_count']}\n")
-            f.write(f"Commits: {repo_details['open_issues_count']}\n")
-            f.write(f"Watchers: {repo_details['watchers_count']}\n")
-            #f.write(f"Pull Requests: {pull_requests if pull_requests is not None else 'N/A'}\n")
-            f.write(f"Last Commit Date: {repo_details['pushed_at']}\n")
-            f.write(f"Main Language: {repo_details['language']}\n")
-            f.write(f"License: {repo_details['license']['name'] if repo_details['license'] else 'No license'}\n")
-            f.write(f"Size: {repo_details['size']} KB\n")
-            f.write(f"Main Branch: {repo_details['default_branch']}\n")
-            #f.write(f"Releases: {releases if releases is not None else 'N/A'}\n")
-            #f.write(f"Closed Issues: {closed_issues if closed_issues is not None else 'N/A'}\n")
-            f.write(f"Topics: {', '.join(repo_details['topics']) if 'topics' in repo_details else 'No topics'}\n")
-            f.write("-" * 100 + "\n")
+                row = {
+                    "Repository": repo_details.get("name", "N/A"),
+                    "Owner": repo_details.get("owner", {}).get("login", "N/A"),
+                    "URL": repo_details.get("html_url", "N/A"),
+                    "Stars": repo_details.get("stargazers_count", "N/A"),
+                    "Forks": repo_details.get("forks_count", "N/A"),
+                    "Watchers": repo_details.get("watchers_count", "N/A"),
+                    "Last Commit Date": repo_details.get("pushed_at", "N/A"),
+                    "Main Language": repo_details.get("language", "N/A"),
+                    "License": license_name,
+                    "Size (KB)": repo_details.get("size", "N/A"),
+                    "Main Branch": repo_details.get("default_branch", "N/A"),
+                    "Topics": topics_str
+                }
+                writer.writerow(row)
+                print(f"Salvando {i+1}/{len(repos)}: {repo_name}")
+                time.sleep(1)
 
-# Main
+
 if __name__ == "__main__":
-    keyword = "microservices"
-    print("rodando")
-    num_repos = 100  # Número de repositórios a serem coletados
-    try:
-        repos = get_top_starred_repos(num_repos)
-        collect_and_print_repo_info(repos)
-        print("Dados salvos em repos_info.txt")
-    except Exception as e:
-        print(e)
+    num_repos_to_collect = 1000
+    print(f"Iniciando a coleta dos {num_repos_to_collect} repositórios mais populares...")
+    
+    repos = get_top_starred_repos_paginated(num_repos_to_collect)
+    
+    print(f"Coletados {len(repos)} repositórios. Salvando em arquivo CSV...")
+    collect_and_save_repo_info_to_csv(repos)
+    print("Dados salvos em repos_info.csv")
