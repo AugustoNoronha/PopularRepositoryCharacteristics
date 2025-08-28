@@ -3,10 +3,10 @@ import re
 from datetime import datetime
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
-# ===============================
-# Leitura e processamento dos dados
-# ===============================
+os.makedirs('graphics', exist_ok=True)
+
 repos_data = []
 
 with open('lab_popular_repositories.txt', 'r', encoding='utf-8') as file:
@@ -56,6 +56,7 @@ sns.histplot(df['Repo_Age_Years'], bins=20, kde=True, color='skyblue')
 plt.title('RQ01 - Idade dos Repositórios (Histograma)')
 plt.xlabel('Idade (anos)')
 plt.ylabel('Quantidade de Repositórios')
+plt.savefig('graphics/RQ01_Idade_Repositorios.png')
 plt.show()
 
 # ===============================
@@ -65,6 +66,7 @@ plt.figure()
 sns.violinplot(y=df['Merged_PRs'], color='lightgreen')
 plt.title('RQ02 - Distribuição de Pull Requests Aceitas (Violino)')
 plt.ylabel('Número de PRs Aceitas')
+plt.savefig('graphics/RQ02_PRs_Aceitas.png')
 plt.show()
 
 # ===============================
@@ -74,6 +76,7 @@ plt.figure()
 sns.boxplot(x=df['Total_Releases'], color='lightcoral')
 plt.title('RQ03 - Total de Releases por Repositório (Boxplot)')
 plt.xlabel('Total de Releases')
+plt.savefig('graphics/RQ03_Total_Releases.png')
 plt.show()
 
 # ===============================
@@ -84,6 +87,7 @@ sns.histplot(df['Days_Since_Last_Update'], bins=30, color='orchid')
 plt.title('RQ04 - Dias desde a Última Atualização (Histograma)')
 plt.xlabel('Dias')
 plt.ylabel('Quantidade de Repositórios')
+plt.savefig('graphics/RQ04_Dias_Ultima_Atualizacao.png')
 plt.show()
 
 # ===============================
@@ -95,6 +99,7 @@ sns.barplot(x=language_counts.values, y=language_counts.index, palette="viridis"
 plt.title('RQ05 - Top 10 Linguagens em Repositórios Populares (Barplot)')
 plt.xlabel('Quantidade de Repositórios')
 plt.ylabel('Linguagem')
+plt.savefig('graphics/RQ05_Linguagens_Populares.png')
 plt.show()
 
 # ===============================
@@ -104,6 +109,7 @@ plt.figure()
 sns.violinplot(y=df['Closed_Issues_Percent'], color='gold')
 plt.title('RQ06 - Percentual de Issues Fechadas (Violino)')
 plt.ylabel('% de Issues Fechadas')
+plt.savefig('graphics/RQ06_Issues_Fechadas.png')
 plt.show()
 
 # ===============================
@@ -115,6 +121,7 @@ corr = df[numeric_cols].corr()
 plt.figure(figsize=(8,6))
 sns.heatmap(corr, annot=True, fmt=".2f", cmap='coolwarm')
 plt.title('Heatmap - Correlação entre Métricas dos Repositórios')
+plt.savefig('graphics/Heatmap_Correlacao.png')
 plt.show()
 
 # ===============================
