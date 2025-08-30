@@ -10,6 +10,16 @@ Este laboratório foi desenvolvido para analisar as características dos reposit
 
 #### Fase 1: Implementação com API REST (Resultados Insatisfatórios)
 
+**O que era esperado:**
+- Esperava-se que a API REST do GitHub permitisse coletar rapidamente os dados dos repositórios mais populares, com poucas limitações técnicas.
+- Acreditava-se que bastaria realizar algumas chamadas HTTP para obter todas as informações necessárias, sem grandes dificuldades de performance ou limitação.
+
+**Resultados obtidos:**
+- A performance foi extremamente lenta, com tempos de resposta elevados.
+- Foram necessárias múltiplas requisições separadas para cada repositório (busca básica, detalhes, pull requests, releases, issues fechadas), o que aumentou a complexidade.
+- O rate limiting da API REST gerou delays significativos entre requisições.
+- A paginação manual para cada endpoint tornou o código mais complexo do que o previsto.
+
 **Problemas Identificados:**
 - **Performance Extremamente Lenta**: A implementação inicial usando a API REST do GitHub (`main.py`) apresentou tempos de resposta muito elevados
 - **Múltiplas Chamadas HTTP**: Para cada repositório, eram necessárias múltiplas requisições separadas:
@@ -31,6 +41,10 @@ closed_issues = get_closed_issues(owner, repo_name)  # Requisições paginadas
 ```
 
 #### Fase 2: Migração para GraphQL (Melhoria Significativa)
+
+**O que era esperado:**
+- Esperava-se que a migração para GraphQL simplificasse a coleta de dados, tornando o processo mais rápido e eficiente.
+- Acreditava-se que seria possível obter todos os dados necessários em uma única requisição, reduzindo drasticamente o tempo de execução e a complexidade do código.
 
 **Benefícios Alcançados:**
 - **Redução Drástica de Requisições**: Uma única query GraphQL retorna todos os dados necessários
@@ -55,6 +69,21 @@ query($owner: String!, $name: String!) {
 }
 """
 ```
+
+Nesta fase, foi gerado o arquivo `repos_info.csv` contendo os dados dos 1000 repositórios mais populares do GitHub. O arquivo reúne informações detalhadas de cada repositório, incluindo o repositório, proprietário, estrelas, entre outros.
+
+#### Fase 3: Geração e Análise de Gráficos
+
+**O que era esperado:**
+- Esperava-se que, com os dados organizados, fosse possível gerar gráficos claros e objetivos para responder às questões de pesquisa.
+- Acreditava-se que a visualização dos dados facilitaria a identificação de padrões e insights relevantes sobre os repositórios populares.
+
+**Resultados obtidos:**
+- Os dados coletados permitiram o processamento e a geração de gráficos estatísticos para cada métrica analisada.
+- Foi possível interpretar os resultados para cada RQ e documentar os principais insights obtidos.
+- Os relatórios gráficos gerados forneceram conclusões visuais e quantitativas sobre as características dos projetos open source mais populares do GitHub.
+
+//TODO: Análise dos gráficos após ajuste dos campos vazios e ajuste do codigo para utilziar como base arquivo csv.
 
 ### Desafios Enfrentados
 
