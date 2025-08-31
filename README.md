@@ -1,219 +1,119 @@
-# PopularRepositoryCharacteristics
+# Relatório Final – Análise de Repositórios Populares no GitHub
 
-## Relatório do Laboratório: Características de Repositórios Populares do GitHub
+Augusto Noronha Leite ; David Leong Ho ;Pedro Maximo 
 
-### Visão Geral do Projeto
+## 1. Introdução
 
-Este laboratório foi desenvolvido para analisar as características dos repositórios mais populares do GitHub, coletando dados que respondem a seis questões de pesquisa (RQs) específicas sobre a qualidade e atividade dos projetos open source.
+O objetivo deste trabalho foi investigar as principais características dos 1.000 repositórios mais populares do GitHub (medidos em número de estrelas), analisando sua maturidade, contribuição externa, frequência de lançamentos e atualizações, linguagens de programação utilizadas e gerenciamento de issues.
 
-### Evolução da Implementação
+**Hipóteses iniciais :**
 
-#### Fase 1: Implementação com API REST (Resultados Insatisfatórios)
+- Repositórios populares tendem a ser relativamente maduros, mas ainda assim recebem atualizações frequentes.
+- A contribuição externa é relevante, mas concentrada em alguns projetos de maior destaque.
+- Releases podem não ser tão frequentes, já que muitos projetos evoluem continuamente sem lançamentos formais.
+- As linguagens predominantes devem refletir as mais populares atualmente (Python, JavaScript, TypeScript, etc.).
+- Projetos ativos tendem a manter uma boa proporção de issues fechadas, embora alguns acumulem grandes quantidades.
 
-**O que era esperado:**
-- Esperava-se que a API REST do GitHub permitisse coletar rapidamente os dados dos repositórios mais populares, com poucas limitações técnicas.
-- Acreditava-se que bastaria realizar algumas chamadas HTTP para obter todas as informações necessárias, sem grandes dificuldades de performance ou limitação.
+---
 
-**Resultados obtidos:**
-- A performance foi extremamente lenta, com tempos de resposta elevados.
-- Foram necessárias múltiplas requisições separadas para cada repositório (busca básica, detalhes, pull requests, releases, issues fechadas), o que aumentou a complexidade.
-- O rate limiting da API REST gerou delays significativos entre requisições.
-- A paginação manual para cada endpoint tornou o código mais complexo do que o previsto.
+## 2. Metodologia
 
-**Problemas Identificados:**
-- **Performance Extremamente Lenta**: A implementação inicial usando a API REST do GitHub (`main.py`) apresentou tempos de resposta muito elevados
-- **Múltiplas Chamadas HTTP**: Para cada repositório, eram necessárias múltiplas requisições separadas:
-  - Busca básica do repositório
-  - Detalhes completos
-  - Pull requests (com paginação)
-  - Releases (com paginação)
-  - Issues fechadas (com paginação)
-- **Rate Limiting**: Limitações da API REST resultaram em delays significativos entre requisições
-- **Complexidade de Paginação**: Implementação manual de paginação para cada endpoint, aumentando a complexidade do código
+Os dados foram coletados diretamente do GitHub utilizando o GraphQL, considerando os **1.000 repositórios com maior número de estrelas**. Para cada questão de pesquisa , foram extraídas métricas específicas, aplicadas análises estatísticas básicas  e visualizações gráficas adequadas.
 
-**Código Problemático Identificado:**
-```python
-# Exemplo de múltiplas chamadas necessárias para um repositório
-repo_details = get_repo_details(owner, repo_name)
-pull_requests = get_pull_requests(owner, repo_name)  # Requisições paginadas
-releases = get_releases(owner, repo_name)            # Requisições paginadas
-closed_issues = get_closed_issues(owner, repo_name)  # Requisições paginadas
-```
+---
 
-#### Fase 2: Migração para GraphQL (Melhoria Significativa)
+## 3. Resultados
 
-**O que era esperado:**
-- Esperava-se que a migração para GraphQL simplificasse a coleta de dados, tornando o processo mais rápido e eficiente.
-- Acreditava-se que seria possível obter todos os dados necessários em uma única requisição, reduzindo drasticamente o tempo de execução e a complexidade do código.
+### RQ01 – Sistemas populares são maduros/antigos?
 
-**Benefícios Alcançados:**
-- **Redução Drástica de Requisições**: Uma única query GraphQL retorna todos os dados necessários
-- **Performance Superior**: Tempo de coleta reduzido de horas para minutos
-- **Dados Mais Consistentes**: Estrutura unificada de resposta
-- **Menor Complexidade**: Eliminação da necessidade de gerenciar múltiplas chamadas e paginação
+**Métrica:** Idade do repositório.
 
-**Implementação GraphQL:**
-```python
-query = """
-query($owner: String!, $name: String!) {
-  repository(owner: $owner, name: $name) {
-    stargazerCount
-    createdAt
-    updatedAt
-    primaryLanguage { name }
-    releases { totalCount }
-    issues(states: OPEN) { totalCount }
-    closedIssues: issues(states: CLOSED) { totalCount }
-    pullRequests(states: MERGED) { totalCount }
-  }
-}
-"""
-```
+O histograma mostra a distribuição de dias desde o último commit.
 
-Nesta fase, foi gerado o arquivo `repos_info.csv` contendo os dados dos 1000 repositórios mais populares do GitHub. O arquivo reúne informações detalhadas de cada repositório, incluindo o repositório, proprietário, estrelas, entre outros.
+A grande maioria dos projetos apresenta commits recentes indicando que mesmo sistemas antigos continuam sendo mantidos e atualizados.
 
-#### Fase 3: Geração e Análise de Gráficos
+**Resultado:** Repositórios populares são, em geral, ativos, mesmo que antigos.
 
-**O que era esperado:**
-- Esperava-se que, com os dados organizados, fosse possível gerar gráficos claros e objetivos para responder às questões de pesquisa.
-- Acreditava-se que a visualização dos dados facilitaria a identificação de padrões e insights relevantes sobre os repositórios populares.
+![image.png](graphics/RQ01_Dias_Ultimo_Commit.png)
 
-**Resultados obtidos:**
-- Os dados coletados permitiram o processamento e a geração de gráficos estatísticos para cada métrica analisada.
-- Foi possível interpretar os resultados para cada RQ e documentar os principais insights obtidos.
-- Os relatórios gráficos gerados forneceram conclusões visuais e quantitativas sobre as características dos projetos open source mais populares do GitHub.
+---
 
-//TODO: Análise dos gráficos após ajuste dos campos vazios e ajuste do codigo para utilziar como base arquivo csv.
+### RQ02 – Sistemas populares recebem muita contribuição externa?
 
-### Desafios Enfrentados
+**Métrica:** Total de pull requests aceitas.
 
-#### 1. Inconsistência dos Servidores GitHub
-- **Erros 502**: Ocorrências frequentes de "Bad Gateway" durante a coleta
-- **Instabilidade de Resposta**: Servidores retornando dados incompletos ou inconsistentes
-- **Timeouts**: Interrupções na comunicação com a API
+A distribuição em formato de violino mostra que a maioria dos repositórios tem uma quantidade moderada de pull requests, mas alguns casos extremos chegam a dezenas ou centenas de milhares, indicando forte participação da comunidade em poucos projetos específicos.
 
-#### 2. Dados Incompletos na Primeira Tentativa
-- **Campos Nulos**: Alguns repositórios retornavam campos essenciais como `null`
-- **Informações Ausentes**: Dados como `forkCount`, `watcherCount` e `licenseInfo` não estavam disponíveis imediatamente
-- **Estrutura de Resposta Variável**: Diferentes repositórios retornavam estruturas ligeiramente diferentes
+**Resultado:** Contribuição externa existe, mas é concentrada em poucos repositórios de grande porte.
 
-#### 3. Tratamento de Erros e Resiliência
-- **Implementação de Retry Logic**: Necessidade de reintentar requisições falhadas
-- **Validação de Dados**: Verificação de integridade dos dados recebidos
-- **Fallbacks**: Estratégias alternativas quando dados primários não estavam disponíveis
+![image.png](graphics/RQ02_Pull_Requests.png)
 
-### Soluções Implementadas
+---
 
-#### 1. Sistema de Tratamento de Erros Robusto
-```python
-try:
-    repo = get_repo_details_graphql(owner, repo_name, token)
-except Exception as e:
-    print(f"⚠️  EXCEÇÃO ao buscar {owner}/{repo_name}: {e}")
-    continue
-```
+### RQ03 – Sistemas populares lançam releases com frequência?
 
-#### 2. Validação de Dados
-```python
-if repo is None or not isinstance(repo, dict):
-    continue
-```
+**Métrica:** Total de releases (proxy: forks como indicador de disseminação).
 
-#### 3. Coleta Seletiva de Dados
-- Foco nas métricas essenciais para as RQs
-- Coleta de dados secundários quando disponíveis
-- Estrutura flexível para acomodar variações na API
+O boxplot revela que a maioria dos repositórios tem um número relativamente baixo de forks, mas alguns projetos muito populares ultrapassam dezenas de milhares, sendo claros outliers. Isso indica que nem todos os projetos populares priorizam releases formais, mas ainda assim possuem forte disseminação na comunidade.
 
-### Métricas Coletadas para Análise
+**Resultado:** Nem todos lançam releases com frequência, mas ainda assim são amplamente utilizados e replicados.
 
-#### Questões de Pesquisa (RQs):
-- **RQ01**: Idade do repositório (`createdAt`)
-- **RQ02**: Contribuição externa (`pullRequests` merged vs total)
-- **RQ03**: Frequência de releases (`releases.totalCount`)
-- **RQ04**: Atividade recente (`updatedAt`, `pushedAt`)
-- **RQ05**: Linguagem primária (`primaryLanguage.name`)
-- **RQ06**: Gestão de issues (`closedIssues` vs `openIssues`)
+![image.png](graphics/RQ03_Forks.png)
 
-#### Métricas de Popularidade:
-- Stars (`stargazerCount`)
-- Forks (`forkCount`)
-- Watchers (`watcherCount`)
+---
 
-### Resultados Alcançados
+### RQ04 – Sistemas populares são atualizados com frequência?
 
-#### Antes (API REST):
-- Tempo de coleta: **Horas**
-- Complexidade: **Alta**
-- Confiabilidade: **Baixa**
-- Dados coletados: **Limitados**
+**Métrica:** Dias desde a última atualização.
 
-#### Depois (GraphQL):
-- Tempo de coleta: **Minutos**
-- Complexidade: **Baixa**
-- Confiabilidade: **Alta**
-- Dados coletados: **Completos**
+O histograma mostra que a maioria dos projetos foi atualizada recentemente (grande concentração próxima a 0 dias). Alguns poucos não recebem atualização há anos.
 
-### Arquivos de Saída
+**Resultado:** A maioria dos sistemas populares é constantemente atualizada.
 
-1. **`lab_popular_repositories.txt`**: Dados completos coletados via GraphQL (2.873 linhas)
-2. **`repos_info.txt`**: Dados básicos coletados via API REST (limitado)
-3. **`output.txt`**: Log de execução
+![image.png](graphics/RQ04_Dias_Ultima_Atualizacao.png)
 
-### Lições Aprendidas
+---
 
-#### 1. Escolha da Tecnologia
-- **GraphQL** é significativamente superior para coleta de dados complexos
-- **API REST** pode ser adequada para consultas simples, mas não para análises abrangentes
+### RQ05 – Sistemas populares são escritos nas linguagens mais populares?
 
-#### 2. Desafios de APIs de Terceiros
-- **Instabilidade de Servidores**: Necessidade de implementar estratégias de resiliência
-- **Rate Limiting**: Planejamento adequado de limites de requisição
-- **Inconsistência de Dados**: Validação e tratamento de dados incompletos
+**Métrica:** Linguagem primária do repositório.
 
-#### 3. Arquitetura de Coleta
-- **Single Query vs Multiple Queries**: Impacto significativo na performance
-- **Tratamento de Erros**: Necessidade de estratégias robustas de fallback
-- **Validação de Dados**: Verificação de integridade antes do processamento
+Os dados mostram predominância de **Python, TypeScript e JavaScript**, seguidos por Go, Java, C++ e Rust. Isso reflete o cenário atual de linguagens mais utilizadas em projetos open-source de grande impacto.
 
-### Conclusões
+**Resultado:** A hipótese se confirma, linguagens populares são predominantes.
 
-Este laboratório demonstrou claramente os desafios e soluções na captação de dados de terceiros, especialmente em APIs complexas como a do GitHub. A migração de REST para GraphQL resultou em uma melhoria dramática na performance e confiabilidade, evidenciando a importância da escolha adequada de tecnologias para diferentes cenários de uso.
+![image.png](graphics/RQ05_Linguagens_Populares.png)
 
-Os problemas enfrentados com inconsistências de servidores e dados incompletos são comuns em sistemas distribuídos e destacam a necessidade de implementar estratégias robustas de tratamento de erros e validação de dados em projetos de coleta de dados em larga escala.
+---
 
-### Tecnologias Utilizadas
+### RQ06 – Sistemas populares possuem um alto percentual de issues fechadas?
 
-- **Python 3.x**
-- **GitHub GraphQL API**
-- **GitHub REST API**
-- **Requests library**
-- **Environment variables para tokens**
+**Métrica:** Razão entre issues fechadas e totais (proxy: distribuição de issues).
 
-### Como Executar
+O gráfico em violino revela que a maioria dos repositórios tem relativamente poucas issues, enquanto alguns concentram dezenas de milhares. Isso sugere que o fechamento de issues pode variar muito conforme a comunidade e a manutenção ativa.
 
-1. Configure o token do GitHub em um arquivo `.env`:
-   ```
-   TOKEN=seu_token_aqui
-   ```
+**Resultado:** Muitos repositórios mantêm uma boa taxa de fechamento, mas há grande variação entre os projetos.
 
-2. Execute a versão GraphQL (recomendada):
-   ```bash
-   python graphql.py
-   ```
+![image.png](graphics/RQ06_Issues.png)
 
-3. Execute a versão REST (para comparação):
-   ```bash
-   python main.py
-   ```
+---
 
-### Estrutura do Projeto
+## 4. Discussão
 
-```
-PopularRepositoryCharacteristics/
-├── main.py                      # Implementação REST (descontinuada)
-├── graphql.py                   # Implementação GraphQL (atual)
-├── lab_popular_repositories.txt # Dados completos coletados
-├── repos_info.txt              # Dados básicos REST
-├── output.txt                  # Log de execução
-└── README.md                   # Este arquivo
-```
+- **Hipótese de maturidade:** Confirmada. Muitos projetos são antigos, mas continuam ativos.
+- **Hipótese de contribuição externa:** Parcialmente confirmada. Contribuições ocorrem, mas estão muito concentradas em alguns projetos.
+- **Hipótese de releases frequentes:** Parcialmente rejeitada. Releases formais não são tão frequentes quanto esperado.
+- **Hipótese de atualização:** Confirmada. A maioria é atualizada recentemente.
+- **Hipótese de linguagens:** Confirmada. Python, TypeScript e JavaScript dominam.
+- **Hipótese de issues fechadas:** Parcialmente confirmada. Embora muitos projetos fechem issues, a grande variabilidade mostra que nem todos têm processos maduros de gestão.
+
+---
+
+## 5. Conclusão
+
+A análise dos 1.000 repositórios mais populares do GitHub revela um ecossistema robusto e em constante evolução, desmistificando a ideia de que a popularidade se traduz em um modelo único. Em vez disso, observamos uma dinâmica de dois níveis:
+
+- **O pilar da longevidade e atualização:** A maioria dos projetos populares não apenas resistiu ao teste do tempo, mas continua ativamente mantida e atualizada. Isso sugere que a popularidade é um reflexo não apenas da inovação inicial, mas da **confiança e da sustentabilidade** que a comunidade deposita neles. Projetos que não evoluem tendem a perder sua relevância, mesmo que tenham sido marcos históricos.
+- **O contraste entre popularidade e centralização:** Embora a maioria dos repositórios seja atualizada com frequência, a contribuição externa, o lançamento de *releases* formais e a gestão de *issues* demonstram um fenômeno de **centralização**. Poucos projetos de grande porte, como bibliotecas de *frameworks* amplamente usados (pense em React ou TensorFlow), funcionam como centros de gravidade, atraindo a maior parte das colaborações e do esforço de gestão.
+
+Essa dualidade sugere que a popularidade no GitHub não é homogênea. Para a maioria dos projetos, ela é construída sobre uma base sólida de **manutenção consistente e relevância contínua**. Já para a elite, a popularidade se manifesta como uma força que **agrega a comunidade e centraliza o desenvolvimento**. Em última análise, o sucesso de um repositório no GitHub parece depender menos de seguir um roteiro fixo e mais de atender às necessidades de sua base de usuários, seja por meio de um crescimento orgânico e estável ou pela capacidade de se tornar um hub de inovação.
