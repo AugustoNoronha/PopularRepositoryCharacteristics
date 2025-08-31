@@ -1,99 +1,66 @@
 import pandas as pd
-import re
-from datetime import datetime
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
+from datetime import datetime
 
+# Criar pasta para gráficos
 os.makedirs('graphics', exist_ok=True)
 
-repos_data = []
+# ===============================
+# Leitura do CSV
+# ===============================
+df = pd.read_csv('repos_info_with_issues_prs.csv')
 
-with open('lab_popular_repositories.txt', 'r', encoding='utf-8') as file:
-    content = file.read()
+# Converter data de último commit e remover timezone
+df['Last Commit Date'] = pd.to_datetime(df['Last Commit Date'], errors='coerce').dt.tz_localize(None)
 
-repos = content.split('====================================================================================================')
+# Calcular dias desde último commit
+today = datetime(2025, 8, 27)
+df['Days_Since_Last_Commit'] = (today - df['Last Commit Date']).dt.days
 
-for repo in repos:
-    if 'REPOSITÓRIO' in repo:
-        name = re.search(r'REPOSITÓRIO \d+: (\S+)', repo)
-        created_at = re.search(r'RQ01 - Created At: ([\d\-T:Z]+)', repo)
-        merged_prs = re.search(r'RQ02_Merged_PRs: (\d+)', repo)
-        total_releases = re.search(r'RQ03_Total_Releases: (\d+)', repo)
-        last_update = re.search(r'RQ04 - Last Update: ([\d\-T:Z]+)', repo)
-        language = re.search(r'RQ05 - Primary Language: (.+)', repo)
-        closed_issues = re.search(r'RQ06 - Closed Issues: (\d+)', repo)
-        total_issues = re.search(r'RQ06 - Total Issues: (\d+)', repo)
-
-        closed_percent = 0
-        if total_issues and int(total_issues.group(1)) > 0:
-            closed_percent = int(closed_issues.group(1)) / int(total_issues.group(1)) * 100
-        
-        repos_data.append({
-            'Name': name.group(1) if name else None,
-            'Created_At': datetime.fromisoformat(created_at.group(1).replace('Z','')) if created_at else None,
-            'Merged_PRs': int(merged_prs.group(1)) if merged_prs else 0,
-            'Total_Releases': int(total_releases.group(1)) if total_releases else 0,
-            'Last_Update': datetime.fromisoformat(last_update.group(1).replace('Z','')) if last_update else None,
-            'Primary_Language': language.group(1).strip() if language else 'Not specified',
-            'Closed_Issues_Percent': closed_percent
-        })
-
-df = pd.DataFrame(repos_data)
-
-today = datetime(2025, 8, 27) 
-df['Repo_Age_Years'] = (today - df['Created_At']).dt.days / 365
-df['Days_Since_Last_Update'] = (today - df['Last_Update']).dt.days
-
+# ===============================
+# Visualizações
+# ===============================
 sns.set(style="whitegrid")
 plt.rcParams['figure.figsize'] = (10,6)
 
-# ===============================
-# RQ01 - Idade dos repositórios (Histograma)
-# ===============================
+# RQ01 - Dias desde o último commit (Histograma)
 plt.figure()
-sns.histplot(df['Repo_Age_Years'], bins=20, kde=True, color='skyblue')
-plt.title('RQ01 - Idade dos Repositórios (Histograma)')
-plt.xlabel('Idade (anos)')
+sns.histplot(df['Days_Since_Last_Commit'], bins=30, color='skyblue')
+plt.title('RQ01 - Dias desde o Último Commit (Histograma)')
+plt.xlabel('Dias desde último commit')
 plt.ylabel('Quantidade de Repositórios')
-plt.savefig('graphics/RQ01_Idade_Repositorios.png')
+plt.savefig('graphics/RQ01_Dias_Ultimo_Commit.png')
 plt.show()
 
-# ===============================
-# RQ02 - Contribuições externas (Gráfico de Violino)
-# ===============================
+# RQ02 - Pull Requests (Violino)
 plt.figure()
-sns.violinplot(y=df['Merged_PRs'], color='lightgreen')
-plt.title('RQ02 - Distribuição de Pull Requests Aceitas (Violino)')
-plt.ylabel('Número de PRs Aceitas')
-plt.savefig('graphics/RQ02_PRs_Aceitas.png')
+sns.violinplot(y=df['Pull Requests'], color='lightgreen')
+plt.title('RQ02 - Distribuição de Pull Requests (Violino)')
+plt.ylabel('Número de Pull Requests')
+plt.savefig('graphics/RQ02_Pull_Requests.png')
 plt.show()
 
-# ===============================
-# RQ03 - Número de Releases (Boxplot)
-# ===============================
+# RQ03 - Forks (Boxplot)
 plt.figure()
-sns.boxplot(x=df['Total_Releases'], color='lightcoral')
-plt.title('RQ03 - Total de Releases por Repositório (Boxplot)')
-plt.xlabel('Total de Releases')
-plt.savefig('graphics/RQ03_Total_Releases.png')
+sns.boxplot(x=df['Forks'], color='lightcoral')
+plt.title('RQ03 - Total de Forks por Repositório (Boxplot)')
+plt.xlabel('Total de Forks')
+plt.savefig('graphics/RQ03_Forks.png')
 plt.show()
 
-# ===============================
-# RQ04 - Dias desde a última atualização (Histograma)
-# ===============================
+# RQ04 - Dias desde última atualização (Histograma)
 plt.figure()
-sns.histplot(df['Days_Since_Last_Update'], bins=30, color='orchid')
+sns.histplot(df['Days_Since_Last_Commit'], bins=30, color='orchid')
 plt.title('RQ04 - Dias desde a Última Atualização (Histograma)')
-plt.xlabel('Dias')
+plt.xlabel('Dias desde última atualização')
 plt.ylabel('Quantidade de Repositórios')
 plt.savefig('graphics/RQ04_Dias_Ultima_Atualizacao.png')
 plt.show()
 
-# ===============================
 # RQ05 - Linguagens mais populares (Barplot)
-# ===============================
-language_counts = df['Primary_Language'].value_counts().head(10)
+language_counts = df['Main Language'].value_counts().head(10)
 plt.figure()
 sns.barplot(x=language_counts.values, y=language_counts.index, palette="viridis")
 plt.title('RQ05 - Top 10 Linguagens em Repositórios Populares (Barplot)')
@@ -102,20 +69,16 @@ plt.ylabel('Linguagem')
 plt.savefig('graphics/RQ05_Linguagens_Populares.png')
 plt.show()
 
-# ===============================
-# RQ06 - Percentual de issues fechadas (Violin plot)
-# ===============================
+# RQ06 - Issues (Violino)
 plt.figure()
-sns.violinplot(y=df['Closed_Issues_Percent'], color='gold')
-plt.title('RQ06 - Percentual de Issues Fechadas (Violino)')
-plt.ylabel('% de Issues Fechadas')
-plt.savefig('graphics/RQ06_Issues_Fechadas.png')
+sns.violinplot(y=df['Issues'], color='gold')
+plt.title('RQ06 - Distribuição de Issues Totais (Violino)')
+plt.ylabel('Número de Issues')
+plt.savefig('graphics/RQ06_Issues.png')
 plt.show()
 
-# ===============================
-# Heatmap de correlação entre métricas numéricas
-# ===============================
-numeric_cols = ['Repo_Age_Years', 'Merged_PRs', 'Total_Releases', 'Days_Since_Last_Update', 'Closed_Issues_Percent']
+# Heatmap de correlação (apenas numéricos)
+numeric_cols = ['Stars', 'Forks', 'Watchers', 'Issues', 'Pull Requests', 'Days_Since_Last_Commit']
 corr = df[numeric_cols].corr()
 
 plt.figure(figsize=(8,6))
@@ -124,14 +87,10 @@ plt.title('Heatmap - Correlação entre Métricas dos Repositórios')
 plt.savefig('graphics/Heatmap_Correlacao.png')
 plt.show()
 
-# ===============================
-# Estatísticas resumidas
-# ===============================
 print("===== Estatísticas Resumidas =====")
-print("Idade mediana (anos):", df['Repo_Age_Years'].median())
-print("PRs aceitas mediana:", df['Merged_PRs'].median())
-print("Releases medianas:", df['Total_Releases'].median())
-print("Dias desde última atualização mediana:", df['Days_Since_Last_Update'].median())
-print("Percentual médio de issues fechadas:", df['Closed_Issues_Percent'].median())
+print("Dias desde último commit (mediana):", df['Days_Since_Last_Commit'].median())
+print("Pull Requests (mediana):", df['Pull Requests'].median())
+print("Forks (mediana):", df['Forks'].median())
+print("Issues (mediana):", df['Issues'].median())
 print("Top 10 linguagens:")
 print(language_counts)
